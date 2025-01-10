@@ -1,0 +1,226 @@
+.Screen {
+    position: relative;
+    overflow: hidden;
+    min-height: max(100vh, 666px);
+}
+
+.Decor {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Header {
+    position: relative;
+    z-index: 1;
+    height: 40px;
+    width: 100vw;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &Ico {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.Img {
+    position: absolute;
+    // filter: blur(112px);
+    width: calc(100vw + 20px);
+    height: 100px;
+    left: -10px;
+    z-index: 0;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Main {
+    position: relative;
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 15px;
+    justify-content: center;
+    // padding: 56px 30px;
+
+}
+
+.notion {
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    height: 20px;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid  rgba(255, 255, 255, 0.2);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(5px);
+}
+
+.TitlePerson {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ImgLogo {
+    width: 44px;
+    height: 44px;
+    border-radius: 999px;
+}
+
+.Footer {
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    width: calc(100vw - 40px);
+    left: 20px;
+    bottom: 20px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(12px);
+    color: rgba(255, 255, 255, 0.20);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.El {
+    position: absolute;
+    filter: blur(12px);
+    bottom: -16px;
+    right: 34px;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 20px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Check {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+
+    &List {
+        display: flex;
+        gap: 14px;
+        flex-direction: column;
+    }
+
+    &Next {
+        padding-left: 10px;
+        align-items: center;
+        display: flex;
+        gap: 6px;
+    }
+
+    &Box {
+        position: relative;
+        width: 14px;
+        height: 14px;
+        border-radius: 4px;
+        border: 2px solid #FFF;
+    }
+}
+
+.Block {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+
+    &Input {
+        font-family: Mulish;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFF;
+        outline: none;
+        display: flex;
+        width: calc(100vw - 40px - 12px - 12px);
+        padding: 10.3px 9px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.07);
+    }
+}
+
+.ButtonSave {
+    cursor: pointer;
+    margin-top: 16px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    outline: none;
+    border-radius: 12px;
+    color: #FFF;
+    padding: 10px ;
+    background: linear-gradient(180deg, #6140CD 0%, #8271CD 100%);
+    box-shadow: 0px 5px 10px 2px rgba(97, 64, 205, 0.50);
+}
+
+.Chooses {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    // background: #8D4AF8;
+
+    &H {
+        color: #FFF;
+        font-weight: 400;
+        // background: linear-gradient(90deg, #8D4AF8 7.34%, #8880CE 7.35%, #8F73AE 93.61%);
+        // background-clip: text;
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+    }
+}
+
+.Cus {
+    max-height: 1000px;
+}
+
+.Light {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: auto;
+    text-decoration: underline;
+}
+
+.li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    height: 22px;
+    margin-bottom: 4px;
+}

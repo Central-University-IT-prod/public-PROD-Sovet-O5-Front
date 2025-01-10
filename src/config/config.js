@@ -1,0 +1,1 @@
+export const BASEURL = "https://prod-o5.difhel.dev"

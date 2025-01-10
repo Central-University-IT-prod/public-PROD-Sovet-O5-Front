@@ -1,0 +1,177 @@
+.Screen {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.Img {
+    position: absolute;
+    // filter: blur(112px);
+    width: 100vw;
+    height: 86px;
+    z-index: 0;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Decor {
+    position: absolute;
+    bottom: -5px;
+    left: 12px;
+}
+
+.Title {
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 117px;
+    z-index: 2;
+    width: calc(100vw - 117px);
+    height: 86px;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 20px;
+}
+
+.BlockTeam {
+    width: calc(100vw - 40px - 40px);
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #191b34;
+
+    &Buttons {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    &Ico {
+        width: 22px;
+        height: 22px;
+    }
+
+    &Ico2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 16px;
+        height: 16px;
+    }
+}
+.L {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 20px;
+
+    &Title {
+        margin-top: 10px;
+        margin-left: 14px;
+    }
+}
+
+.Modal {
+    padding: 20px;
+    width: 300px;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1111;
+    background: linear-gradient(164deg, #342579 9.62%, #8D4AF8 118.22%);
+    border-radius: 30px;
+}
+
+.ButtonSave {
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    outline: none;
+    border-radius: 12px;
+    color: #FFF;
+    padding: 10px ;
+    background: linear-gradient(180deg, #6140CD 0%, #8271CD 100%);
+    box-shadow: 0px 5px 10px 2px rgba(97, 64, 205, 0.50);
+}
+
+.hidden {
+    display: none;
+}
+
+.Block {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+
+    &Input {
+        margin-top: 15px;
+        font-family: Mulish;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFF;
+        outline: none;
+        display: flex;
+        width: 280px;
+        padding: 10.3px 9px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.07);
+    }
+}
+
+.ButtonSave {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    outline: none;
+    border-radius: 12px;
+    color: #FFF;
+    padding: 4px 8px;
+    background: linear-gradient(180deg, #6140CD 0%, #8271CD 100%);
+    box-shadow: 0px 5px 10px 2px rgba(97, 64, 205, 0.50);
+}
+
+.HHHHHH {
+    display: flex;
+    gap: 10px;
+}
+
+.Select {
+    outline: none;
+}
+
+.Select2 {
+    margin-top: 10px;
+    outline: none;
+}
+
+.Fixed {
+    position: fixed;
+}
